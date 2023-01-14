@@ -11,4 +11,5 @@
 - C18 in schematic is actually C48 on the pcb.
 - RP4 pin 9 in the schematics was not marked with a number.
 - C45 in the schematic is C65 in the layout
+- Crystal Y1 in the schematics doesn't show the shield grounding and its connection.
 
