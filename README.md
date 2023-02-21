@@ -37,6 +37,7 @@ Check out the videos for this project, and my previous c64 motherboard projects.
 - C45 in the schematic is C65 in the layout
 - Crystal Y1 in the schematics doesn't show the shield grounding and its connection.
 - EXT_RESET at the serial port is called EXTRES at U22.
+- Diode arrays DA1-4 in the layout was not in the schematics.
 
 Other:
 - PB0..7 and PA2 in the schematic share the same net names between to the CIA ICs.
