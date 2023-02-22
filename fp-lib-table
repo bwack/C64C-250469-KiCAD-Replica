@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "c64c-library")(type "KiCad")(uri "${KIPRJMOD}/c64c-library.pretty")(options "")(descr ""))
+  (lib (name "KU-14194HB-RevB-KiCad")(type "KiCad")(uri "/home/hans/bwack-git/C64-250407-KiCad/KU-14194HB-RevB-KiCad.pretty")(options "")(descr ""))
+)
