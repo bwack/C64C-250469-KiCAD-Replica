@@ -1,0 +1,60 @@
+#!/bin/bash
+
+FSTART="false"
+input="./NeoGeoAES-3.5-Nightly/"
+output="./NeoGeoAES-3.5/"
+OLDIFS=$IFS
+IFS=
+do_ () {
+  rm $2
+  while read -r LINE
+  do
+    if [[ "$LINE" == *"version"* ]]; then
+	TT=`echo "$LINE" | sed 's/version ......../version 20211014/'`
+        echo "$TT" >> $2
+    elif [[ "$LINE" == *"(fp_"* ]] || [[ "$LINE" == *"(gr_"* ]]; then
+        FLINE="$LINE"
+        read -r LINE
+        if [[ "$LINE" == *"(stroke"* ]]; then
+          TT=`echo "$LINE" | sed 's/^.*(stroke//' | sed 's/(type solid)//' | sed 's/(type default)//' | sed 's/) ) (/) (/' | sed 's/ (width/(width/'`
+          echo "$FLINE $TT" >> $2
+        else
+          echo "$FLINE" >> $2
+          echo "    $LINE" >> $2
+        fi
+    elif [[ "$LINE" == *"(pad"* ]]; then
+        FLINE="$LINE"
+        read -r LINE
+        if [[ "$LINE" == *"(tstamp"* ]]; then
+          if [[ "$LINE" == *"(thermal_bridge_angle"* ]]; then
+            TT=`echo "$LINE" | sed 's/(thermal_bridge_angle.*) (/(/'`
+            echo "$FLINE $TT" >> $2
+          else
+            echo "$FLINE" >> $2
+            echo "    $LINE" >> $2
+          fi
+        elif [[ "$LINE" == *"(thermal_bridge_angle"* ]]; then
+           echo "$FLINE" >> $2
+        else
+           echo "$FLINE" >> $2
+           echo "    $LINE" >> $2
+        fi
+    elif [[ "$LINE" == *"(image"* ]]; then
+        echo "SKIPPING IMAGE"
+        SKIPIMAGE="true"
+        while [ "$SKIPIMAGE" == "true" ]
+        do
+           read -r SLINE
+           if [ "$SLINE" == "  )" ]; then
+              echo "FOUND END"
+              SKIPIMAGE="false"
+           fi
+        done
+        echo "SKIPPING IMAGE DONE"
+    else
+      echo "$LINE" >> $2
+    fi
+  done < "$1"
+}
+
+do_ "$input/NeoGeoAES3_5.kicad_pcb" "$output/NeoGeoAES3_5.kicad_pcb"

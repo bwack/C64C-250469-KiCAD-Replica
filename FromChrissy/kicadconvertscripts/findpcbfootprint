@@ -1,0 +1,34 @@
+#!/bin/bash
+
+FSTART="false"
+
+input="./NeoGeoAES-3.5-Nightly/NeoGeoAES3_5.kicad_pcb"
+REF=$1
+
+while IFS= read -r LINE
+do
+  
+  if [[ "$LINE" == *"(footprint"* ]]; then
+    FSTART="true"
+    FFOOTPRINT=`echo "$LINE" | awk '{print $2}'`
+  fi
+
+  if [ "$FSTART" == "true" ]; then
+    if [[ "$LINE" == "  )" ]]; then
+      FSTART="false"
+      if [ "$REF" == "$FFOOTREF" ]; then
+        echo "$FFOOTPRINT"
+        exit 0
+      fi
+    fi
+  fi
+
+  if [ "$FSTART" == "true" ]; then
+    if [[ "$LINE" == *"fp_text reference"* ]]; then
+      FFOOTREF=`echo "$LINE" | awk '{print $3}'`
+    fi
+  fi
+done < "$input"
+
+echo "NULL"
+exit 0

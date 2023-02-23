@@ -1,4 +1,4 @@
-20843377589088431
+20756018885417605
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1553,13 +1553,6 @@ SPST Tactile Switch
 0
 4
 2
-Button_Switch_SMD
-SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS
-Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf
-switch tactile SPST 1P1T straight NO SMTR C&K
-0
-2
-2
 Button_Switch_THT
 KSA_Tactile_SPST
 KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf
@@ -2869,13 +2862,6 @@ capacitor electrolytic
 0
 2
 2
-Capacitor_SMD
-CP_Elec_CAP-XX_DMF3Zxxxxxxxx3D
-5.5V, 470mF supercapacitor, 45mohm, -40ºC to +70ºC, https://www.cap-xx.com/wp-content/uploads/datasheets/CAP-XX-DMF470mF-Datasheet.pdf
-supercap
-0
-3
-3
 Capacitor_SMD
 C_0201_0603Metric
 Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -6487,27 +6473,6 @@ AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3
 XT60 female vertical
 0
 2
-2
-Connector_AMASS
-AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal
-Connector XT60 Horizontal PCB Male, https://www.bto.pl/pdf/08988/XT60IPW-M3.pdf
-RC Connector XT60
-0
-5
-3
-Connector_AMASS
-AMASS_XT60PW-F_1x02_P7.20mm_Horizontal
-Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
-RC Connector XT60
-0
-4
-2
-Connector_AMASS
-AMASS_XT60PW-M_1x02_P7.20mm_Horizontal
-Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
-RC Connector XT60
-0
-4
 2
 Connector_Amphenol
 Amphenol_M8S-03PMMR-SF8001
@@ -10989,13 +10954,6 @@ Wuerth FPC 68611214422 connector 12 bottom-side contacts 1.0mm pitch 1.0mm heigh
 0
 14
 13
-Connector_HDMI
-HDMI_A_Amphenol_10029449-x01xLF_Horizontal
-HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
-hdmi right angle
-0
-23
-20
 Connector_HDMI
 HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
 HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
@@ -45962,13 +45920,6 @@ USB C Type-C Receptacle SMD
 28
 25
 Connector_USB
-USB_C_Receptacle_G-Switch_GT-USB-7010ASV
-USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf
-USB C Type-C Receptacle SMD
-0
-20
-17
-Connector_USB
 USB_C_Receptacle_GCT_USB4085
 USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
 USB Type-C Receptacle Through-hole Right angle
@@ -46007,13 +45958,6 @@ Connector_USB
 USB_C_Receptacle_JAE_DX07S024WJ3R400
 USB TYPE C, VERT RCPT PCB, SMT, http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ117928.pdf
 USB C Type-C Receptacle SMD
-0
-28
-25
-Connector_USB
-USB_C_Receptacle_Molex_105450-0101
-USB 3.0 3.1 3.2 4.0 Type-C receptable, through-hole mount, SMD, right-angle (https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf)
-USB C Type-C USB3 receptacle SMD
 0
 28
 25
@@ -50568,15 +50512,8 @@ MicroMELF Diode
 2
 2
 Diode_SMD
-D_MicroSMP_AK
-Diode MicroSMP (DO-219AD), large-pad cathode, https://www.vishay.com/docs/89020/mss1p3l.pdf
-Diode MicroSMP (DO-219AD)
-0
-2
-2
-Diode_SMD
-D_MicroSMP_KA
-Diode MicroSMP (DO-219AD), large-pad anode, https://www.vishay.com/docs/89457/msmp6a.pdf
+D_MicroSMP
+Diode MicroSMP (DO-219AD), https://www.vishay.com/docs/89020/mss1p3l.pdf
 Diode MicroSMP (DO-219AD)
 0
 2
@@ -55019,34 +54956,6 @@ wurth wuerth smd inductor
 0
 2
 2
-Inductor_SMD_Wurth
-L_Wurth_WE-LQSH-2010
-Semi-Shielded High Saturation Power Inductor, body 2x1.6mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-2010
-SMT
-0
-2
-2
-Inductor_SMD_Wurth
-L_Wurth_WE-LQSH-2512
-Semi-Shielded High Saturation Power Inductor, body 2.5x2mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-2512
-SMT
-0
-2
-2
-Inductor_SMD_Wurth
-L_Wurth_WE-LQSH-3012
-Semi-Shielded High Saturation Power Inductor, body 3x3mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-3012
-SMT
-0
-2
-2
-Inductor_SMD_Wurth
-L_Wurth_WE-LQSH-4020
-Semi-Shielded High Saturation Power Inductor, body 4x4mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-4020
-SMT
-0
-2
-2
 Inductor_THT
 Choke_EPCOS_B82722A
 Current-Compensated Ring Core Double Chokes, EPCOS, B82722A, 22.3mmx22.7mm, https://en.tdk.eu/inf/30/db/ind_2008/b82722a_j.pdf
@@ -56852,76 +56761,6 @@ L_Toroid, Vertical series, Radial, pin pitch=31.80mm, , length*width=67.6*36.1mm
 L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vishay TJ9
 0
 2
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-2012_LeadDiameter1.2mm
-Shielded High Current Inductor, body 17x22mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-2012-ROUND
-THT
-0
-2
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-2012_LeadDiameter1.5mm
-Shielded High Current Inductor, body 17x22mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-2012-ROUND
-THT
-0
-2
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-2504
-Shielded High Current Inductor, body 22x25.7mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT_SIZE_2504
-THT
-0
-2
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-3521
-Shielded High Current Inductor, body 21.5x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3521
-THT
-0
-4
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-3533_LeadDiameter1.8mm
-Shielded High Current Inductor, body 34.5x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3533-ROUND
-THT
-0
-4
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-3533_LeadDiameter2.0mm
-Shielded High Current Inductor, body 34.5x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3533-ROUND
-THT
-0
-4
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-3540_LeadDiameter0.8mm
-Shielded High Current Inductor, body 41x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3540
-THT
-0
-4
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-3540_LeadDiameter1.3mm
-Shielded High Current Inductor, body 41x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3540
-THT
-0
-4
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-3540_LeadDiameter1.5mm
-Shielded High Current Inductor, body 41x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3540
-THT
-0
-4
-2
-Inductor_THT_Wurth
-L_Wurth_WE-HCFT-3540_LeadDiameter2.0mm
-Shielded High Current Inductor, body 41x36mm, https://www.we-online.com/catalog/en/WE-HCFT#/articles/WE-HCFT-3540
-THT
-0
-4
 2
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
@@ -62223,13 +62062,6 @@ BGA 28 0.8
 28
 28
 Package_BGA
-Analog_BGA-49_6.25x6.25mm_Layout7x7_P0.8mm_Ball0.5mm_Pad0.4mm
-Analog BGA-49, 6.25x6.25mm, 49 Ball, 7x7 Layout, 0.8mm Pitch, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081600_0_bga49.pdf https://www.analog.com/media/en/technical-documentation/product-information/assembly-considerations-for-umodule-bga-lga-package.pdf
-BGA 49 0.8
-0
-49
-49
-Package_BGA
 BGA-9_1.6x1.6mm_Layout3x3_P0.5mm
 BGA-9, http://www.ti.com/lit/ds/symlink/bq27421-g1.pdf
 BGA-9
@@ -62635,13 +62467,6 @@ BGA 96 0.8
 0
 96
 96
-Package_BGA
-NXP_VFBGA-42_2.6x3mm_Layout6x7_P0.4mm_Ball0.25mm_Pad0.24mm
-NXP VFBGA-42, 3.0x2.6mm, 42 Ball, 6x7 Layout, 0.4mm Pitch, https://www.nxp.com/docs/en/package-information/SOT1963-1.pdf
-BGA 42 0.4
-0
-42
-42
 Package_BGA
 ST_uTFBGA-36_3.6x3.6mm_Layout6x6_P0.5mm
 ST uTFBGA-36, 0.25mm pad, 3.6x3.6mm, 36 Ball, 6x6 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stulpi01a.pdf
@@ -63245,13 +63070,6 @@ LFCSP 8 0.5
 12
 5
 Package_CSP
-Analog_LFCSP-UQ-10_1.3x1.6mm_P0.4mm
-Analog  LFCSP-UQ, 10 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_10_10.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-Analog LFCSP-UQ NoLead
-0
-10
-10
-Package_CSP
 LFCSP-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
 LFCSP, 6 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_6_3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 LFCSP NoLead
@@ -63453,20 +63271,6 @@ LFCSP, 32 Pin (https://www.analog.com/media/en/package-pcb-resources/package/414
 LFCSP NoLead
 0
 59
-33
-Package_CSP
-LFCSP-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm
-LFCSP, 32 Pin (https://www.analog.com/media/en/package-pcb-resources/package/3416438741201015623cp_32_4.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-37
-33
-Package_CSP
-LFCSP-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias
-LFCSP, 32 Pin (https://www.analog.com/media/en/package-pcb-resources/package/3416438741201015623cp_32_4.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-47
 33
 Package_CSP
 LFCSP-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm
@@ -66549,20 +66353,6 @@ TQFN NoLead
 35
 21
 Package_DFN_QFN
-TQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm
-TQFN, 24 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0139.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
-TQFN NoLead
-0
-29
-25
-Package_DFN_QFN
-TQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm_ThermalVias
-TQFN, 24 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0139.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
-TQFN NoLead
-0
-39
-25
-Package_DFN_QFN
 TQFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm_PullBack
 TQFN, 24 Pin (https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 TQFN NoLead
@@ -67654,20 +67444,6 @@ DFN 0.5
 0
 8
 8
-Package_DFN_QFN
-WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm
-WDFN, 10 Pin (https://www.onsemi.com/pdf/datasheet/nis5420-d.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-WDFN NoLead
-0
-15
-11
-Package_DFN_QFN
-WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm_ThermalVias
-WDFN, 10 Pin (https://www.onsemi.com/pdf/datasheet/nis5420-d.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-WDFN NoLead
-0
-22
-11
 Package_DFN_QFN
 WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm
 WDFN, 12 Pin (https://www.diodes.com/assets/Datasheets/PAM2306.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -73766,13 +73542,6 @@ SOT TO_SOT_SMD
 3
 3
 Package_TO_SOT_SMD
-SOT-23-3
-SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-3
-3
-Package_TO_SOT_SMD
 SOT-23-5
 SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
@@ -77231,13 +77000,6 @@ GSM NB-IoT module BC95
 188
 94
 RF_GSM
-Quectel_BG96
-Quectel BG96 Cellular GSM 2G Module https://www.quectel.com/download/quectel_bg96_hardware_design_v1-4
-Quectel BG96 Cellular GSM 2G Module
-0
-204
-102
-RF_GSM
 Quectel_M95
 Quad-Band GSM/GPRS module, 19.9x23.6x2.65mm, https://www.quectel.com/UploadImage/Downlad/M95_Hardware_Design_V1.3.pdf
 GSM Module M95
@@ -79946,20 +79708,6 @@ rotary encoder
 0
 5
 4
-Rotary_Encoder
-RotaryEncoder_Bourns_Horizontal_PEC09-2xxxF-Nxxxx
-Bourns rotary encoder, PEC09, without switch, horizontal shaft, https://www.bourns.com/products/encoders/contacting-encoders/product/PEC09
-rotary encoder
-0
-3
-3
-Rotary_Encoder
-RotaryEncoder_Bourns_Horizontal_PEC09-2xxxF-Sxxxx
-Bourns rotary encoder, PEC09, with switch, horizontal shaft, https://www.bourns.com/products/encoders/contacting-encoders/product/PEC09
-rotary encoder
-0
-5
-5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -79968,7 +79716,7 @@ Temperature and humidity module
 4
 4
 Sensor
-Avago_APDS-9960
+Avago_ADPS-9960
 Digital Proximity, Ambient Light, RGB and Gesture Sensor (https://docs.broadcom.com/doc/AV02-4191EN)
 DFN Sensor optical IR
 0

@@ -1,0 +1,38 @@
+(footprint "RECTIFIER" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 3.81 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 30dbe7c4-dad3-40c3-95f7-21128dc27ca4)
+  )
+  (fp_text value "RECTIFIER" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3074e5a2-8c3f-4081-b3ec-d003bb26fffc)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 00c4dabc-0544-443c-906e-132ebc5f41ab)
+  )
+  (fp_circle (center 0 2.54) (end 1.55 2.54)
+    (stroke (width 0.4) (type default)) (fill none) (layer "F.SilkS") (tstamp e4caada1-aa1e-40b8-aea1-edf7ef91240c))
+  (fp_poly
+    (pts
+      (xy -0.889 0.762)
+      (xy 0.889 0.762)
+      (xy 0 -0.635)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 91c2838e-69a0-472c-8377-996d05559dbb))
+  (fp_poly
+    (pts
+      (xy -0.635 -0.762)
+      (xy 0.889 -0.762)
+      (xy 0.889 -1.016)
+      (xy -0.889 -1.016)
+      (xy -0.889 -0.762)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f66e261c-b112-4d79-8d87-3d67debd16a0))
+  (pad "1" thru_hole rect (at 0 -2.54) (size 2.54 2.54) (drill 1.1) (layers *.Cu *.Mask) (tstamp 585d5e83-6552-4464-858f-847ec2e8932a))
+  (pad "2" thru_hole circle (at 0 2.54) (size 2.54 2.54) (drill 1.1) (layers *.Cu *.Mask) (tstamp fee35de9-bb9c-4be5-b783-df7cdbfacca5))
+)
