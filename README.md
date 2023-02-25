@@ -2,10 +2,9 @@
 
 A replica of the Commodore 64 250469 motherboard, and schematics.
 
-# BOM
-
-
 # Interactive BOM
+
+For assembling and BOM list, see the interactive html bom. (dette repo er privat,last ned bom/ibom.html og åpne den).
 
 # Schematics
 
