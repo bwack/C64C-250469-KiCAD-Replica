@@ -2,17 +2,15 @@
 
 A replica of the Commodore 64 250469 motherboard, and schematics.
 
-# Interactive BOM
+## Interactive BOM
 
 For assembling and BOM list, see the interactive html bom. (dette repo er privat,last ned bom/ibom.html og åpne den).
 
-# Schematics
+## Schematics
 
 [C64-250469-KiCad.pdf](C64-250469-KiCad.pdf)
 
-# Change log
-
-# YouTube
+## YouTube
 
 Check out the videos for this project, and my previous c64 motherboard projects. They are in these playlists:
 
@@ -20,26 +18,41 @@ Check out the videos for this project, and my previous c64 motherboard projects.
 * [250407](https://www.youtube.com/playlist?list=PLtQOf_JULmrTjnf6mLVKhRkkNlOATiyTX)
 * [KU](https://www.youtube.com/playlist?list=PLtQOf_JULmrTGLZCElGG_T1a01JSDP0CP)
 
-# Discrepancies
+## Discrepancies in Layout and Schematics
+
+Many inconsistencies were found in the schematics and layout.
+
 - Inputs of 4066 in U18 and U21 are named differently.
 - Global label INTRES near U6, a INTRES net is crossing, but there is no junction.
-- C8 in the schematics is the same as C2 in the layout
-- 9VAC global label seems to point the wrong direction
-- R16 is anonymous in the schematic
+- C8 in the schematics is the same as C2 in the layout.
+- 9VAC global label seems to point the wrong direction.
+- R16 is anonymous in the schematic.
 - Power Switch symbols have no reference number and no pin numbers.
-- kicad labels will not have slash inside ~{}, but will have them in symbol pin names
+- kicad labels will not have slash inside ~{}, but will have them in symbol pin names.
 - C59 is missing its reference in the schematics. Schematics says it is C19.
 - CASS_RD RP3 pin 8 is actually RP5 pin 8.
 - C70 at U2 is actually C30.
-- C18 in schematic is actually C48 on the pcb.
-- RP4 pin 9 in the schematics was not marked with a number.
-- C45 in the schematic is C65 in the layout
+- C18 in the schematic is actually C48 on the pcb.
+- RP4 pin 9 was not marked with a number in the schematic.
+- C45 in the schematic is C65 in the layout.
 - Crystal Y1 in the schematics doesn't show the shield grounding and its connection.
 - EXT_RESET at the serial port is called EXTRES at U22.
 - Diode arrays DA1-4 in the layout was not in the schematics.
 
 Other:
 - PB0..7 and PA2 in the schematic share the same net names between to the CIA ICs.
+
+## Change log
+
+- Rev 1.0 (2023-02-21)
+This was the prototype shown in the video series.
+
+- Rev 1.1 ()
+  - Adjusted position of mounting holes, and power switch.
+  - Joystick ports: Mechanical mounting holes changed to plated.
+  - Crystal: vias changed to solder pads for grounding.
+
+## Changelog:
 
 # License and Disclaimer
 
