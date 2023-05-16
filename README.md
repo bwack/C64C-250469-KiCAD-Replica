@@ -1,10 +1,15 @@
 # The C64C 250469 KiCAD replica
 
-A replica of the Commodore 64 250469 motherboard, and schematics.
+A replica of the Commodore 64 250469 motherboard, and schematics. Reverse engineered using KiCAD and photos of PCBs.
+
+![screenshot top](images/C64-250469-KiCad_3D_top.png)
+
+![screenshot bottom](images/C64-250469-KiCad_3D_bottom.png)
 
 ## Interactive BOM
 
-For assembling and BOM list, see the interactive html bom. (dette repo er privat,last ned bom/ibom.html og åpne den).
+For assembling and BOM list, see the interactive html bom.
+The .csv file includes also additional parts, like fuse clips and ic sockets.
 
 ## Schematics
 
@@ -12,11 +17,21 @@ For assembling and BOM list, see the interactive html bom. (dette repo er privat
 
 ## YouTube
 
-Check out the videos for this project, and my previous c64 motherboard projects. They are in these playlists:
+Check out these playlists of videos for my c64 motherboard projects:
 
 * [C64C](https://www.youtube.com/playlist?list=PLtQOf_JULmrRxewUc_WUPFes85R2VS0OV)
 * [250407](https://www.youtube.com/playlist?list=PLtQOf_JULmrTjnf6mLVKhRkkNlOATiyTX)
 * [KU](https://www.youtube.com/playlist?list=PLtQOf_JULmrTGLZCElGG_T1a01JSDP0CP)
+
+I want to thank Tommy Ovesen, Arctic Retro, for helping me with finding components and building it.
+Check out his videos about this board here:
+
+* [SPECIAL UNBOXING - BWACK's brand new 2023 C64C Rev 4 Motherboard Replica Prototype](https://www.youtube.com/watch?v=X3wnqtAdsNw)
+* [Part 1 - Prepare and start soldering](https://www.youtube.com/watch?v=k9U1iy2JSg4)
+* [Part 2 - Will it work?](https://www.youtube.com/watch?v=0MrF4Lym-Ks)
+* [Part 3 - Fixing issues and making a case](https://www.youtube.com/watch?v=E9nOs_wmgxU)
+
+
 
 ## Discrepancies in Layout and Schematics
 
@@ -47,12 +62,10 @@ Other:
 - Rev 1.0 (2023-02-21)
 This was the prototype shown in the video series.
 
-- Rev 1.1 ()
+- Rev 1.1 (2023-05-17)
   - Adjusted position of mounting holes, and power switch.
   - Joystick ports: Mechanical mounting holes changed to plated.
   - Crystal: vias changed to solder pads for grounding.
-
-## Changelog:
 
 # License and Disclaimer
 
