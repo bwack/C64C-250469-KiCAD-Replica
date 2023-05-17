@@ -8,7 +8,7 @@ A replica of the Commodore 64 250469 motherboard, and schematics. Reverse engine
 
 ## Interactive BOM
 
-For assembling and BOM list, see the interactive html bom.
+For assembling and BOM list, see the [interactive bom](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64C-250469-KiCAD-Replica/main/bom/ibom.html).
 The .csv file includes also additional parts, like fuse clips and ic sockets.
 
 ## Schematics
@@ -17,7 +17,7 @@ The .csv file includes also additional parts, like fuse clips and ic sockets.
 
 ## YouTube
 
-Check out these playlists of videos for my c64 motherboard projects:
+Check out my playlists of videos for my c64 motherboard projects:
 
 * [C64C](https://www.youtube.com/playlist?list=PLtQOf_JULmrRxewUc_WUPFes85R2VS0OV)
 * [250407](https://www.youtube.com/playlist?list=PLtQOf_JULmrTjnf6mLVKhRkkNlOATiyTX)
