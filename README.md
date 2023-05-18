@@ -1,10 +1,15 @@
 # The C64C 250469 KiCAD replica
 
+![blend image](images/blend_board_kicad_prototype.png)
+
 A replica of the Commodore 64 250469 motherboard, and schematics. Reverse engineered using KiCAD and photos of PCBs.
+
+## 3D images
 
 ![screenshot top](images/C64-250469-KiCad_3D_top.png)
 
 ![screenshot bottom](images/C64-250469-KiCad_3D_bottom.png)
+
 
 ## Interactive BOM
 
